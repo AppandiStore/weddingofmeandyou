@@ -1,22 +1,22 @@
 const config = {
   data: {
     // Main invitation title that appears on the page
-    title: "Pernikahan Fulan & Fulana",
+    title: "Pernikahan Affandi & Ann",
     // Opening message/description of the invitation
     description:
       "Kami akan menikah dan mengundang Anda untuk turut merayakan momen istimewa ini.", // Nanti ini dibikin random
     // Groom's name
-    groomName: "Fulan",
+    groomName: "Affandi",
     // Bride's name
-    brideName: "Fulana",
+    brideName: "Ann",
     // Groom's parents names
-    parentGroom: "Bapak Groom & Ibu Groom",
+    parentGroom: "Bapak Ahmad & Ibu Nuryati",
     // Bride's parents names
-    parentBride: "Bapak Bride & Ibu Bride",
+    parentBride: "Bapak Bambang & Ibu Ayu",
     // Wedding date (format: YYYY-MM-DD)
-    date: "2024-12-24",
+    date: "2025-12-24",
     // Google Maps link for location (short clickable link)
-    maps_url: "https://goo.gl/maps/abcdef",
+    maps_url: "https://maps.app.goo.gl/FwyjdPMSKUT4Nsev9",
     // Google Maps embed code to display map on website
     // How to get: open Google Maps → select location → Share → Embed → copy link
     maps_embed:
@@ -24,7 +24,7 @@ const config = {
     // Event time (free format, example: "10:00 - 12:00 WIB")
     time: "16:16 - 17:30 WIB",
     // Venue/building name
-    location: "Grand Ballroom, Hotel Majesty",
+    location: "Gedung Kesenian Jathilan",
     // Full address of the wedding venue
     address: "Jl. Jend. Sudirman No.1, Jakarta",
     // Image that appears when link is shared on social media
