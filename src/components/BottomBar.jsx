@@ -10,13 +10,19 @@ import {
 } from 'lucide-react';
 import { cn } from "@/lib/utils";
 
-const menuItems = [
-  { icon: Home, label: 'Beranda', href: '#home', id: 'home' },
-  { icon: CalendarHeart, label: 'Event', href: '#event', id: 'event' },
-  { icon: MapPin, label: 'Lokasi', href: '#location', id: 'location' },
-  { icon: Gift, label: 'Hadiah', href: '#gifts', id: 'gifts' },
-  { icon: MessageCircleHeart, label: 'Harapan', href: '#wishes', id: 'wishes' },
-];
+export default function BottomBar() {
+  return (
+    <nav className="fixed bottom-0 left-0 right-0 flex justify-around bg-white border-t border-gray-200 py-2 shadow-lg">
+      <a href="#hero" className="text-pink-600 text-sm flex flex-col items-center">🏠 Beranda</a>
+      <a href="#events" className="text-pink-600 text-sm flex flex-col items-center">📅 Acara</a>
+      <a href="#location" className="text-pink-600 text-sm flex flex-col items-center">📍 Lokasi</a>
+      <a href="#gifts" className="text-pink-600 text-sm flex flex-col items-center">🎁 Hadiah</a>
+      <a href="#gallery" className="text-pink-600 text-sm flex flex-col items-center">📸 Galeri</a> {/* 👈 tambahan */}
+      <a href="#wishes" className="text-pink-600 text-sm flex flex-col items-center">💌 Ucapan</a>
+    </nav>
+  );
+}
+
 
 /**
  * BottomBar is a React functional component that renders a fixed bottom navigation bar
