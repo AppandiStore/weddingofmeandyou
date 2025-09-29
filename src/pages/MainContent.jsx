@@ -1,18 +1,21 @@
-import Hero from '@/pages/Hero'
-import Events from '@/pages/Events'
-import Location from '@/pages/Location';
-import Wishes from '@/pages/Wishes';
-import Gifts from '@/pages/Gifts';
+import Hero from "./Hero";
+import Events from "./Events";
+import Location from "./Location";
+import Gifts from "./Gifts";
+import Gallery from "./Gallery";   // 👈 new
+import Wishes from "./Wishes";
+import BottomBar from "../components/BottomBar";
 
-// Main Invitation Content
 export default function MainContent() {
-    return (
-        <>
-            <Hero />
-            <Events />
-            <Location />
-            <Gifts />
-            <Wishes />
-        </>
-    )
+  return (
+    <div className="pb-20">
+      <Hero />
+      <Events />
+      <Location />
+      <Gifts />
+      <Gallery />   {/* 👈 tambahan */}
+      <Wishes />
+      <BottomBar />
+    </div>
+  );
 }
