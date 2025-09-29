@@ -15,13 +15,23 @@
  */
 
 // src/App.jsx
-import { useState } from 'react';
-import { AnimatePresence } from 'framer-motion';
-import Layout from '@/components/Layout';
-import MainContent from '@/pages/MainContent';
-import LandingPage from '@/pages/LandingPage';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
-import config from '@/config/config';
+import { useState } from "react";
+import LandingPage from "./pages/LandingPage";
+import MainContent from "./pages/MainContent";
+
+export default function App() {
+  const [opened, setOpened] = useState(false);
+
+  return (
+    <>
+      {!opened ? (
+        <LandingPage onOpen={() => setOpened(true)} />
+      ) : (
+        <MainContent />
+      )}
+    </>
+  );
+}
 
 /**
  * App component serves as the root of the application.
