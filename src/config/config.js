@@ -20,7 +20,7 @@ const config = {
     // Google Maps embed code to display map on website
     // How to get: open Google Maps → select location → Share → Embed → copy link
     maps_embed:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.0000000000005!2d106.8270733147699!3d-6.175392995514422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f4f1b6d7b1e7%3A0x2e69f4f1b6d7b1e7!2sMonumen%20Nasional!5e0!3m2!1sid!2sid!4v1633666820004!5m2!1sid!2sid",
+      "<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4079.196883999557!2d109.30231309999999!3d-7.5109828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e655b0012d2de1d%3A0xe43179b2903e7201!2sAffandi%20Cell%20%26%20Digital%20Store!5e1!3m2!1sid!2sid!4v1759123090463!5m2!1sid!2sid",
     // Event time (free format, example: "10:00 - 12:00 WIB")
     time: "16:16 - 17:30 WIB",
     // Venue/building name
